@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:5000/api", // backend local URL
+  baseURL: "https://ai-resume-analyzer-backend.onrender.com/api/analyze", // backend local URL
 });
